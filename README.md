@@ -10,11 +10,12 @@ This project was part of my submissions for Udacity's AI Programming with Python
 * PIL
 * Numpy
 
+# Training
 * To train a new network on a data set with train.py
 Basic usage: python train.py data_directory
 - Prints out training loss, validation loss, and validation accuracy as the network trains
 
-* For Prediction
+# Prediction
 * Predict flower name from an image with predict.py along with the probability of that name. That is, you'll pass in a single image /path/to/image and return the flower name and class probability.
 
 Basic usage: python predict.py /path/to/image checkpoint
